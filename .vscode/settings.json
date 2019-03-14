@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/cd865337-1b70-45a3-bf2f-f832c1e35e9e/resourceGroups/Opdrachten_security/providers/Microsoft.Web/sites/SecurityCM",
+    "appService.deploySubpath": "dist"
+}

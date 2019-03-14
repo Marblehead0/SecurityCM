@@ -14,9 +14,9 @@ export class AuthService {
     clientID: 'T7XzhwxJRZfDGRScbBWxIkA09vwS33rj',
     domain: 'securityassignement.eu.auth0.com',
     responseType: 'token id_token',
-    redirectUri: 'http://localhost:3000/callback',
+    redirectUri: 'https://securitycm.azurewebsites.net/callback',
     scope: 'openid profile read:names',
-    audience: 'http://securitymc.azurewebsites.net/api'
+    audience: 'https://securitycmapi.azurewebsites.net'
   });
 
   constructor(public router: Router) {
